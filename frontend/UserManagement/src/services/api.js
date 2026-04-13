@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: "https://usermanagement-416k.onrender.com",
 });
 
 export const getUsers = (params) => API.get("/users", { params });
