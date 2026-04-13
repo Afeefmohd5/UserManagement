@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://usermanagement-416k.onrender.com/users",
+  baseURL: "https://usermanagement-416k.onrender.com",
 });
 
 export const getUsers = (params) => API.get("/users", { params });
